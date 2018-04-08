@@ -1,4 +1,4 @@
-**To create a new project run:
+**To create a new project run:**
 ```bash 
 sudo docker-compose run web django-admin.py startproject app_name .
 ```
