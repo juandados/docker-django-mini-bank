@@ -2,11 +2,12 @@ version: '3'
 
 services:
   web:
-    image: django-app 
+    image: django-project
+    build: .
     env_file: .env
     command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
-      - .:/django-app
+      - .:/django-project
     ports:
       - "8000:8000"
     depends_on:
