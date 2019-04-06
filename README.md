@@ -12,6 +12,7 @@ python manage.py migrate
 ```
 * Up the Api
 ```bash
+sudo docker-compose up web
 ```
 * Create a bank
 Follow the address http://localhost:8000/bancos/add_banco/ and create your bank!
