@@ -10,7 +10,7 @@ sudo docker-compose run web bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-* Up the Api
+* Start the API
 ```bash
 sudo docker-compose up web
 ```
