@@ -1,4 +1,4 @@
-**How to run this project**
+# How to run this project
 Docker and docker compose are requiered in order to run this small django sample project.
 Steps to run the service:
 * Enter in the container:
