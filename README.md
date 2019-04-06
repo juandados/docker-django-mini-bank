@@ -1,3 +1,21 @@
+** How to run this project **
+Docker and docker compose are requiered in order to run this small django sample project.
+Steps to run the service:
+* Enter in the container:
+```bash
+sudo docker-compose run web bash
+```
+* Run migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+* Up the Api
+```bash
+```
+* Create a bank
+Follow the address http://localhost:8000/bancos/add_banco/ and create your bank!
+
 **To create a new project run:**
 ```bash 
 sudo docker-compose run web django-admin.py startproject app_name .
